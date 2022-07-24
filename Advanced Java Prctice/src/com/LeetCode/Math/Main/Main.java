@@ -12,7 +12,8 @@ public class Main {
         if(find.equals("SumofTwoIntegers")){
             int a = scan.nextInt();
             int b = scan.nextInt();
-            SumoTwoIntegers.SumoTwoIntegers(a,b);
+            System.out.println(SumoTwoIntegers.SumoTwoIntegers(a,b));
+            System.out.println(SumoTwoIntegers.addTwoNumber(a,b));
         }
 
         else if(find.equals("AddDigits")){
