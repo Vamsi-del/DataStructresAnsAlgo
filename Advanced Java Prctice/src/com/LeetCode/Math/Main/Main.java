@@ -1,6 +1,7 @@
 package com.LeetCode.Math.Main;
 
 import com.LeetCode.Math.Solution.AddDigits;
+import com.LeetCode.Math.Solution.ReverseInteger;
 import com.LeetCode.Math.Solution.SumoTwoIntegers;
 
 import java.util.Scanner;
@@ -20,6 +21,11 @@ public class Main {
             long n = scan.nextLong();
             System.out.println(AddDigits.EfficientAddDigits(n));
             System.out.println(AddDigits.addDigits(n));
+        }
+
+        else if(find.equals("ReverseInteger")){
+            int x = scan.nextInt();
+            ReverseInteger.reverseInt(x);
         }
     }
 }
