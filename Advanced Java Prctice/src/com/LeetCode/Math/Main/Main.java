@@ -16,7 +16,8 @@ public class Main {
         }
 
         else if(find.equals("AddDigits")){
-            int n = scan.nextInt();
+            long n = scan.nextLong();
+            System.out.println(AddDigits.EfficientAddDigits(n));
             System.out.println(AddDigits.addDigits(n));
         }
     }

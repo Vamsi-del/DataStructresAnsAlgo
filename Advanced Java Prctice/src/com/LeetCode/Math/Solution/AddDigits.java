@@ -1,6 +1,7 @@
 package com.LeetCode.Math.Solution;
 
 public class AddDigits {
+
     //                   Explanation for adding digit using congruence formula
     //    The problem, widely known as digit root problem, has a congruence formula:
     //
@@ -23,7 +24,28 @@ public class AddDigits {
     //    output: 0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 ....
     //
     //    Henceforth, we can write the following code, whose time and space complexities are both O(1).
-    public static int addDigits(int n){
+    public static long EfficientAddDigits(long n){
         return 1 + (n - 1) % 9;
+    }
+
+    public static long addDigits(long n){
+        int ans = 10;
+        long dn = n;
+        int c = 1;
+        while(ans >= 10){
+            if(c == 1){
+                ans = 0;
+                c++;
+            }
+            if(dn == 0){
+                dn = ans;
+                ans = 0;
+            }
+            while(dn > 0){
+                ans += dn % 10;
+                dn = dn / 10;
+            }
+        }
+        return ans;
     }
 }
