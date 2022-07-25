@@ -1,8 +1,6 @@
 package com.LeetCode.Math.Main;
 
-import com.LeetCode.Math.Solution.AddDigits;
-import com.LeetCode.Math.Solution.ReverseInteger;
-import com.LeetCode.Math.Solution.SumoTwoIntegers;
+import com.LeetCode.Math.Solution.*;
 
 import java.util.Scanner;
 
@@ -26,6 +24,16 @@ public class Main {
         else if(find.equals("ReverseInteger")){
             int x = scan.nextInt();
             ReverseInteger.reverseInt(x);
+        }
+
+        else if(find.equals("DoubleReverse")){
+            int x = scan.nextInt();
+            System.out.println(A_Number_After_a_Double_Reversal.reverseNumber(x));
+        }
+
+        else if(find.equals("Atoi")){
+            String s = scan.nextLine();
+            System.out.println(StringtoInteger.myAtoi(s));
         }
     }
 }

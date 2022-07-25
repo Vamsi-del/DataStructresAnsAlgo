@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Math/Solution/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Math/Solution/A_Number_After_a_Double_Reversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Math/Solution/StringtoInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Math/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Math/Main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/LeetCode/Math/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCode/Math/Main/Main.java" afterDir="false" />
@@ -24,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8e03a938-61c3-4de4-87c4-a57c4af57d4a" />
+        <option name="url" value="https://github.com/Vamsi-del/DataStructresAnsAlgo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,5 +111,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
