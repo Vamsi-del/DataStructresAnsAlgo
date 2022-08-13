@@ -1,6 +1,5 @@
 package com.Recurssion.Main;
 
-import com.Array.Solution;
 import com.Recurssion.Solution.SubSet;
 
 import java.util.Scanner;

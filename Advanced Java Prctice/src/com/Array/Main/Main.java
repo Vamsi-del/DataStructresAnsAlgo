@@ -1,8 +1,11 @@
-package com.Array;
+package com.Array.Main;
 
 import java.util.*;
 import java.io.*;
-import com.Array.Solution;
+import com.Array.Solution.LongestConsecutive;
+import com.Array.Solution.MajorityElement;
+import com.Array.Solution.TwoSum;
+
 public class Main {
     static String m = "";
     static String oa = "Correct Answer\n";
@@ -62,15 +65,15 @@ public class Main {
                     }
                     m += "\tAdding the values to the nums Array\n";
                     if(inputFileName.equals("LongestConsecutiveSequence"))
-                        ac = new Solution().longestConsecutive(nums);
+                        ac = LongestConsecutive.longestConsecutive(nums);
                     else if(inputFileName.equals("TwoSum"))
-                        twoSumAC = new Solution().twoSum(nums,target);
+                        twoSumAC = TwoSum.twoSum(nums,target);
                     else
-                        ac = new Solution().majorityElement(nums);
+                        ac = MajorityElement.majorityElement(nums);
                 }
                 else
                 if(inputFileName.equals("LongestConsecutiveSequence"))
-                    ac  = new Solution().longestConsecutive(new int[]{});
+                    ac  = LongestConsecutive.longestConsecutive(new int[]{});
                 expected += "\t"+i+") "+(inputFileName.equals("TwoSum") ? twoSum : ans)+"\n";
                 actual += "\t"+i+") "+(inputFileName.equals("TwoSum") ? twoSumAC : ac)+"\n";
                 if(ac != ans || twoSum.equals(twoSumAC))
@@ -94,4 +97,3 @@ public class Main {
         }
     }
 }
-

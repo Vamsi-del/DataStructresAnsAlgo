@@ -1,53 +1,9 @@
-package com.Array;
-import java.util.*;
+package com.Array.Solution;
 
-public class Solution {
-    public int longestConsecutive(int[] nums) {
-        Arrays.sort(nums);
-        int ans = 1;
-        int high = 0;
-        if(nums.length == 0){
-            return 0;
-        }
-        for(int i=1;i<nums.length;i++){
-            if(nums[i] == nums[i-1]){
-                continue;
-            }
-            else if(nums[i] == nums[i-1]+1){
-                ++ans;
-            }
-            else{
-                if(high < ans)
-                    high = ans;
-                ans = 1;
-            }
-        }
-        if(high < ans){
-            high = ans;
-        }
-        return high;
-    }
+import java.util.Arrays;
 
-    public int majorityElement(int[] nums) {
-//        Arrays.sort(nums);
-//        return nums[nums.length/2];
-        int a = nums[0];int v = 0;
-        for(int i : nums){
-            if(a == i){
-                ++v;
-            }
-            else{
-                --v;
-                if(v == 0){
-                    ++v;
-                    a = i;
-                }
-            }
-        }
-        return a;
-    }
-
-    public String twoSum(int[] numbers, int target) {
+public class TwoSum {
+    public static String twoSum(int[] numbers, int target) {
         // int s = 0;
         // int e = numbers.length - 1;
         // while(s < e){

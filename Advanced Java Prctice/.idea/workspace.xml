@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Recurssion/Solution/SubSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/BinarySearch/InputFiles/SquareRootInputs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/BinarySearch/InputFiles/SquareRootInputs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Array/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +63,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.Recurssion.Main.Main">
+  <component name="RunManager" selected="Application.com.Array.Main.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Array.Main" />
       <module name="Advanced Java Prctice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.Array.Main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Array.Main.Main" />
+      <module name="Advanced Java Prctice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Array.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.Array.Main.Main" />
         <item itemvalue="Application.com.Recurssion.Main.Main" />
         <item itemvalue="Application.com.LeetCode.BinarySearch.Main.Main" />
         <item itemvalue="Application.com.LeetCode.Math.Main.Main" />
