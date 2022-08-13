@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/BinarySearch/InputFiles/SquareRootInputs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/BinarySearch/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/BinarySearch/Solution/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/BinarySearch/Solution/SquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/RandomInputs/RandomInputs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Recurssion/Solution/SubSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/BinarySearch/InputFiles/SquareRootInputs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/BinarySearch/InputFiles/SquareRootInputs.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects&quot;,
@@ -57,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.LeetCode.BinarySearch.Main.Main">
+  <component name="RunManager" selected="Application.com.Recurssion.Main.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Array.Main" />
       <module name="Advanced Java Prctice" />
@@ -97,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.Recurssion.Main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Recurssion.Main.Main" />
+      <module name="Advanced Java Prctice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Recurssion.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.Recurssion.Main.Main" />
         <item itemvalue="Application.com.LeetCode.BinarySearch.Main.Main" />
         <item itemvalue="Application.com.LeetCode.Math.Main.Main" />
         <item itemvalue="Application.Main" />
