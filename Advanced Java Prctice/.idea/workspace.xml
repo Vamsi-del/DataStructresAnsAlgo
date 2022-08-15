@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/LongestConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Main/DRLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/DecompressRunLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/SubSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Array/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Array/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Logs/2022-Aug-13 logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Logs/2022-Aug-13 logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Recurssion/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Recurssion/Solution/SubSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Solution/SubSet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +65,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.Array.Main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Array.Main" />
+  <component name="RunManager" selected="Application.DRLE">
+    <configuration name="DRLE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Array.Main.DRLE" />
       <module name="Advanced Java Prctice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Array.*" />
+          <option name="PATTERN" value="com.Array.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.LeetCode.Math.Main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LeetCode.Math.Main.Main" />
+    <configuration name="com.LeetCode.Recurssion.Main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCode.Recurssion.Main.Main" />
       <module name="Advanced Java Prctice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LeetCode.Math.Main.*" />
+          <option name="PATTERN" value="com.LeetCode.Recurssion.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DRLE" />
+        <item itemvalue="Application.com.LeetCode.Recurssion.Main.Main" />
         <item itemvalue="Application.com.Array.Main.Main" />
         <item itemvalue="Application.com.Recurssion.Main.Main" />
         <item itemvalue="Application.com.LeetCode.BinarySearch.Main.Main" />
-        <item itemvalue="Application.com.LeetCode.Math.Main.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

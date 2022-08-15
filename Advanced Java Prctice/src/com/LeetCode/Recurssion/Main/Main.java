@@ -1,6 +1,6 @@
-package com.Recurssion.Main;
+package com.LeetCode.Recurssion.Main;
 
-import com.Recurssion.Solution.SubSet;
+import com.LeetCode.Recurssion.Solution.SubSet;
 
 import java.util.Scanner;
 
