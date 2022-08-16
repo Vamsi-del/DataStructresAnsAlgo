@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Main/DRLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Array/Solution/DecompressRunLengthEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/SubSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Logs/2022-Aug-13 logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Logs/2022-Aug-13 logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Recurssion/Main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Recurssion/Solution/SubSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Recurssion/Solution/SubSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Main/DRLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Main/DRLE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DRLE">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.LeetCode.Recurssion.Solution" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.LeetCode.Recurssion.Main.Main">
     <configuration name="DRLE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Array.Main.DRLE" />
       <module name="Advanced Java Prctice" />
@@ -133,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DRLE" />
         <item itemvalue="Application.com.LeetCode.Recurssion.Main.Main" />
+        <item itemvalue="Application.DRLE" />
         <item itemvalue="Application.com.Array.Main.Main" />
         <item itemvalue="Application.com.Recurssion.Main.Main" />
         <item itemvalue="Application.com.LeetCode.BinarySearch.Main.Main" />
