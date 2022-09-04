@@ -4,6 +4,8 @@ import com.LeetCode.Recurssion.Solution.*;
 
 import java.util.Scanner;
 
+import static org.graalvm.compiler.core.CompilationWrapper.ExceptionAction.Print;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -46,13 +48,39 @@ public class Main {
             int n = scan.nextInt();
             int mul = scan.nextInt();
             System.out.println(LinearPower.printPower(n,mul));
-            int pow = LinearPower.efficientPower(n/2,mul);
-            System.out.println(n%2 == 0 ? pow*pow : (pow*pow)*mul);
+            System.out.println(LinearPower.efficientPower(n,mul));
         }
 
         else if(s.equals("ZigZag")){
             int n = scan.nextInt();
+            System.out.println(PrintZigZag.efficientZigZag(n));
             System.out.println(PrintZigZag.zigZag(n));
+        }
+
+        else if(s.equals("FirstandLast")){
+            int n = scan.nextInt();
+            int nums[] = new int[n];
+            for(int i=0;i<n;i++){
+                nums[i] = scan.nextInt();
+            }
+            int target = scan.nextInt();
+            int[] ans = FirstandLastOccurance.firstAndLast(nums,target);
+            System.out.print(ans[0]+" "+ans[1]);
+        }
+
+        else if(s.equals("Stair")){
+            int n = scan.nextInt();
+            System.out.println(PrintStairPath.stairPath(n,""));
+        }
+
+        else if(s.equals("Maze")){
+            int n = scan.nextInt();
+            System.out.println(PrintMazePaths.mazePaths(0,0,n,""));
+        }
+
+        else if(s.equals("Permutation")){
+            String str = scan.next();
+            System.out.println(PrintPermutations.permutation(str));
         }
     }
 }

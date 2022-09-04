@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4894d764-21f7-4320-9262-bf89fc945731" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/FirstandLastOccurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/PrintMazePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/PrintPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/PrintStairPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Main/DRLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/Array/Main/DRLE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Solution/PrintZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Java Prctice/com/LeetCode/Recurssion/Solution/PrintZigZag.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/PrintZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCode/Recurssion/Solution/PrintZigZag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
