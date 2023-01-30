@@ -4,7 +4,7 @@ import com.LeetCode.Recurssion.Solution.*;
 
 import java.util.Scanner;
 
-import static org.graalvm.compiler.core.CompilationWrapper.ExceptionAction.Print;
+//import static org.graalvm.compiler.core.CompilationWrapper.ExceptionAction.Print;
 
 public class Main {
     public static void main(String[] args) {
