@@ -72,7 +72,6 @@ public class singleLinkedList {
 
 
     public static void addLast(int data) {
-        Node p = previousNode;
         previousNode.nextNode = new Node(data,null);
     }
 
