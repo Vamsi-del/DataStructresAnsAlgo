@@ -25,5 +25,8 @@ public class Main {
             singleLinkedList.offerFirst(-1);
             System.out.println(singleLinkedList.peek());
         }
+        else if(what.equals("DLL")){
+
+        }
     }
 }
