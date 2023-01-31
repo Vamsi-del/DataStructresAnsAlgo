@@ -23,7 +23,12 @@ public class Main {
             singleLinkedList.offer(8);
             singleLinkedList.offerLast(9);
             singleLinkedList.offerFirst(-1);
+            singleLinkedList.printList();
             System.out.println(singleLinkedList.peek());
+            System.out.println(singleLinkedList.remove());
+            System.out.println(singleLinkedList.removeFirst());
+            System.out.println(singleLinkedList.removeLast());
+            singleLinkedList.printList();
         }
         else if(what.equals("DLL")){
 

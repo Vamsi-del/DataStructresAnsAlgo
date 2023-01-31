@@ -152,4 +152,25 @@ public class singleLinkedList {
     public static int peek() {
         return element();
     }
+
+    public static int remove() {
+        Node p = head.nextNode;
+        int removedData = head.data;
+        head = p;
+        return removedData;
+    }
+
+    public static int removeFirst() {
+        return remove();
+    }
+
+    public static int removeLast() {
+        Node p = head;
+        while(p.nextNode.data != previousNode.data){
+            p = p.nextNode;
+        }
+        int removedData = previousNode.data;
+        previousNode = p;
+        return removedData;
+    }
 }
